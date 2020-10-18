@@ -3,12 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ChrisIsAwesomeComponentComponent } from './chris-is-awesome-component/chris-is-awesome-component.component';
+import { HeaderComponentComponent } from './header-component/header-component.component';
+import { BodyComponentComponent } from './body-component/body-component.component';
+import { FooterComponentComponent } from './footer-component/footer-component.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
-      ChrisIsAwesomeComponentComponent
+      HeaderComponentComponent,
+      BodyComponentComponent,
+      FooterComponentComponent
    ],
   imports: [
     BrowserModule,
